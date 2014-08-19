@@ -1,0 +1,22 @@
+{
+  "name": "syncConstructs",
+  "version": "0.0.0",
+  "description": "Basic synchronization constructs:  semaphore, lock, condition",
+  "main": "dining.js, readersWriters.js",
+  "dependencies": {
+    "async": "~0.2.10",
+    "cycle": "~1.0.2",
+    "redis": "~0.11.0",
+    "colors": "~0.6.2",
+    "winston": "~0.7.3",
+    "node-fs": "~0.1.7",
+    "pkginfo": "~0.3.0",
+    "stack-trace": "~0.0.7"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Joey Whelan",
+  "license": "MIT"
+}
